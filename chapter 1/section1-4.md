@@ -80,13 +80,12 @@ Exercise 5
 
 (a)
 
-    x ∈ A \ (A ∩ B)
-    = x ∈ A ∧ ¬(x ∈ (A ∩ B))
-    = x ∈ A ∧ ¬(x ∈ A ∧ x ∈ B)
-    = x ∈ A ∧ (x ∈ ¬A ∨ x ∈ ¬B)
-    = (x ∈ A ∧ x ∈ ¬A) ∨ (x ∈ A ∧ x ∈ ¬B)
-    = (x ∈ A ∧ x ∈ ¬B)
-    = A \ B
+ x∈A\ (A∩B)
+=x∈A ∧ x∈\ (A∩B) (Definition of \ )
+=x∈A ∧ (x∈\A ∨ x∈\B)  (Definition of ∩ )
+=(x∈A ∧ x∈\A) ∨ (x∈A ∧ x∈\B)  (Distributive law)
+=x∈A ∧ x∈\B (Contradiction law)
+=x∈ A\B (Definition of \ )
 
 (b)
 
